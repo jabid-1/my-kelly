@@ -1,0 +1,290 @@
+
+
+
+
+
+
+
+
+html{
+  scroll-behavior: smooth;
+
+}
+a,h1,h2,h3,p,span,body{
+
+font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+/* HEADER SECTION  */
+
+
+
+#home .main-menu a{font-weight: 500;
+font-size: 15px;
+color: #949494;
+
+}
+#home .main-menu a::after{
+  content: "";
+height: 2px;
+width: 0px;
+display: block;
+background: rgb(3, 195, 163);
+transition: .5s;
+
+}#home .main-menu .actv::after{
+  width: 25px;
+  display: block;
+}
+#home .main-menu a.actv{
+  color:rgb(0, 0, 0);
+}
+
+#home .main-menu a:hover{
+  color: #000;
+}
+
+
+#home .main-menu a:hover::after{
+  width: 25px;
+}
+#home {
+  box-shadow: 0px 10px 43px -23px rgba(161, 161, 161, 0.808);
+  -webkit-box-shadow: 0px 10px 43px -23px rgba(161, 161, 161, 0.746);
+  -moz-box-shadow: 0px 10px 43px -23px rgba(161, 161, 161, 0.719);}
+
+
+#home .navbar-brand  {
+  font-weight: 300;
+  font-size: 35px;
+  color: rgb(17, 17, 17);
+}
+#home .header-social-links a{
+  display: inline-block;
+  padding:0px 3px;
+  font-size: 18px;
+  color: #7a7a7a;
+  transition: .5s;
+}
+#home .header-social-links a:hover{
+  color: #000;
+}
+
+
+/* BANNER SECTION  */
+
+
+
+#header_bg{
+  background: url(pic/hero-bg.jpg) no-repeat top center ;
+  height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+}
+h1{
+  font-weight: 600;
+  font-size: 48px;
+  padding-top: 75px;
+}
+h1+p{
+  font-size:22px ;
+  color: #6f6f6f;
+  font-weight: 500;
+}
+#header_bg a{
+  font-size: 12px;
+padding: 12px 40px;
+background: #34b7a7;
+letter-spacing: 1px;
+font-weight: 500;
+border: none;
+}
+
+
+
+#header_bg a:hover{
+  background: hsl(173, 56%, 50%);
+}
+
+footer, header{
+  background: #e9e8e6;
+}
+h5{
+  font-size: 14px;
+  padding-top: 10px;
+}h5 span{
+  font-weight: 600;
+}
+
+h6{
+  font-size: 13px;
+}h6 span{
+ color: #34b7a7;
+}
+h5,h6{
+  color: #212529;
+}
+ 
+
+
+/* SERVIVCES SECTION  */
+
+
+
+h2.heading{font-weight: 700;
+color: rgb(59, 59, 59);
+
+}
+h2.heading::after{
+content: "";
+height: 2.5px;
+width: 50px;
+display: block;
+background: rgb(3, 195, 163);
+margin:15px auto;
+
+}
+
+.services_text h3 {
+font-size: 23px;
+font-weight: 500;
+
+
+}
+.services_text{
+  background: #fff;
+}
+.services_text p {
+font-size: 14px;
+padding: 30px 20px;
+width: 90%;
+margin: auto;
+}
+
+.services_text.shadow-ser{
+  box-shadow: 0px 0px 23px -12px rgba(161, 161, 161, 0.808);
+}
+
+
+
+/* CONTACT SECTION  */
+
+
+#contact iframe{
+  height:44vh;
+  width:100% ;
+}
+#contact textarea{
+  height:23vh;
+ 
+}#contact h3{
+font-size: 20px;
+font-weight: 500;
+}
+#contact ul li span i{
+  font-size: 25px;
+  display: inline-block;
+width: 45px;
+height: 45px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center; 
+ background: #effbf9; 
+  color: #34b7a7;
+}
+#contact ul li{
+  padding-bottom: 20px;
+}
+#contact .submit_btn a{ 
+  font-size: 16px;
+  padding: 10px 25px;
+}
+
+
+ /* RESUME SECTION  */
+
+
+
+.resume-details{
+  border-left:2px solid #34b7a7;
+  padding-left: 25px;
+  position: relative;
+}
+
+h4:before{
+content: "";
+position: absolute;
+height: 20px;
+width: 20px;
+border-radius: 50%;
+margin-left: 30px;
+top: 0;
+left: -40px;
+border: 3px solid #34b7a7;
+background: #ffffff;
+
+}
+
+#resume ul {
+  margin-bottom: 0;
+  padding-left: 10px;
+  
+}
+#resume ul li{
+  padding-bottom: 10px;
+}
+#resume h4{
+  color: rgb(12, 58, 12)
+}
+
+#resume h5{
+padding: 6px 15px;
+  color:#12aa98;
+  font-size: 17px;
+  display: inline-block;
+}
+
+#resume h3{
+  padding: 26px 0 17px;
+}
+
+#resume address{
+  font-style: italic;
+}
+
+
+/* ABOUT SECTION  */
+#about ul li span{ 
+  font-weight: 600;
+}
+#about ul li{
+  padding-bottom: 5px;
+}
+#about .carousel-item img{
+  height: 60vh;
+}
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+

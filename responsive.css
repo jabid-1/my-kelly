@@ -1,0 +1,24 @@
+
+
+  .resume .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 5px solid #34b7a7;
+position: relative;
+  }
+  
+
+ 
+  
+  .resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 160px;
+    z-index: -1;
+    height: 160px;
+    border-radius: 10px;
+    left: 100px;
+    top: 100px;
+    background: #fff;
+    border: 1px solid #34b7a7;
+  }
